@@ -1,0 +1,22 @@
+{
+  "project": "Industrial Tube Defect Segmentation",
+  "evaluation_split": "validation",
+  "validation_images": 129,
+  "original": {
+    "pixel_auroc_approx": 0.97048,
+    "pixel_ap_approx": 0.79944,
+    "pixel_recall": 0.90011,
+    "pixel_fpr": 0.05593,
+    "pixel_accuracy": 0.9405,
+    "pixel_f1": 0.71074
+  },
+  "fine_tuned_unfiltered": {
+    "pixel_auroc_approx": 0.96269,
+    "pixel_ap_approx": 0.77727,
+    "pixel_recall": 0.90015,
+    "pixel_fpr": 0.08472,
+    "pixel_accuracy": 0.91405,
+    "pixel_f1": 0.62978
+  },
+  "note": "Validation results only. Dataset and checkpoints are not publicly distributed."
+}
